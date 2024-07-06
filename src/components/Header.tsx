@@ -5,8 +5,8 @@ import Logo from '@images/logo.png'
 const Header = () => {
   return (
     <header>
-        <div>Gestion de producto</div>
-        <img src={Logo} />
+        <div>Gestión de productos</div>
+        <img src={Logo} width={75}/>
     </header>
   )
 }
