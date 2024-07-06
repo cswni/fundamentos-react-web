@@ -3,7 +3,7 @@ import React, { FC } from 'react'
 // Definir las propiedades de la tarjeta
 interface CardProps {
   title: string
-  body: string
+  body: string | JSX.Element
 }
 
 const Card : FC<CardProps> = ( { title, body} ) => {
