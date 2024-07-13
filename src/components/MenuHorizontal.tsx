@@ -5,7 +5,7 @@ const MenuHorizontal = () => {
   return (
     <nav>
         <ul>
-            <Link to={'/'}><li>Inicio</li></Link>
+            <Link to={'/'}><li>Panel de Control</li></Link>
             <Link to={'/productos'}><li>Productos</li></Link>
             <Link to={'/contactos'}><li>Contactos</li></Link>
         </ul>

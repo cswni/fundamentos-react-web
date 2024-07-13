@@ -12,7 +12,6 @@ interface ColumnasProductos {
 const ProductosTable = () => {
   //Hooks
   const [productos, setProductos] = useState([]);
-
   // Cargar los productos dentro de useEffect
   // Datos de la tabla. Aca se definen los datos que
   // se van a mostrar en la tabla. 
@@ -21,7 +20,7 @@ const ProductosTable = () => {
     fetch('http://localhost:3000/productos')
       .then(response => response.json())
       .then(data => setProductos(data))
-  }, [])
+  }, [])gi
 
 
   // Columnas de la tabla. Aca se definen los nombres
